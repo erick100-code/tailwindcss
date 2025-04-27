@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.caixa {
+    @apply bg-white p-[10px] text-[40px] rounded-[30px] text-amber-400 w-[400px] h-[200px] flex justify-center items-center 
+}
