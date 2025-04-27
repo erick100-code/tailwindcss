@@ -1,4 +1,11 @@
 const divs = document.querySelectorAll('div')
+var titulo = document.getElementById('titulo')
+titulo.style.cursor = 'pointer'
+titulo.addEventListener('click', () => {
+    divs[0].style.display = 'none'
+    divs[1].style.display = 'none'
+    titulo.style.display = 'none'
+})
 
 c = 0
 
